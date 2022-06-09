@@ -43,7 +43,7 @@ await fetch("/api", {
 Toggles todo item. Returns list of todo items
 
 ```js
-await fetch("/api", {
+await fetch("/api/toggle", {
   method: "POST",
   body: { id: 1 },
 });
