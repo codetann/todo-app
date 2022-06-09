@@ -90,3 +90,12 @@ await fetch("/api", {
 /* response */
 [{ id: 1, title: "Clean room", toggle: false }];
 ```
+
+## Features
+
+- [ ] Add todo item
+- [ ] Update todo item
+- [ ] Remove todo item
+- [ ] Display todo items
+- [ ] Toggle todo item
+- [ ] Filter todos by completed
