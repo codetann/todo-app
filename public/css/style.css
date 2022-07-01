@@ -3,3 +3,62 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body h1 {
+  margin: auto;
+}
+
+.the-list {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  border-radius: 20px 20px 0 0;
+}
+
+.intro-h2 {
+  margin: 20px;
+}
+
+.the-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.the-input input {
+  margin-right: 10px;
+  height: 30px;
+  width: 180px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.the-input button {
+  height: 30px;
+  width: 180px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  transition: ease-in-out 0.25s;
+}
+
+.the-input button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.things-to-do {
+  width: 40%;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 0 0 20px 20px;
+}

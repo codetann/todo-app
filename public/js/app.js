@@ -9,3 +9,19 @@ const getTodos = async () => {
 };
 
 getButton.addEventListener("click", getTodos);
+
+let userInput = document.querySelector("todoInput");
+
+function addToList() {
+  var newItem = document.createElement("li");
+  newItem.textContent = userInput.value;
+  newItem.addEventListener("click", deleteItem);
+  list.appendChild(newItem);
+  userInput.value = "";
+}
+
+const deleteItem = (event) => {
+  event.target.remove();
+};
+
+addToList.addEventListener("click", addToList());
